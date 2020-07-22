@@ -1,28 +1,39 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+	<div class="container">
+    <section>
+
+      <Header />
+      <h2>Prueba de desarrollo Sigma</h2>
+      <ArticleInfo />
+
+      <div class="row">
+        <SigmaImg />
+        <GuestRegister />
+      </div>
+
+    </section>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import Header from './components/Header.vue'
+import ArticleInfo from './components/ArticleInfo.vue'
+import SigmaImg from './components/SigmaImg.vue'
+import GuestRegister from './components/GuestRegister.vue'
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+	name: 'App',
+	components: {
+    Header,
+    ArticleInfo,
+    SigmaImg,
+    GuestRegister
+	}
 }
+
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>

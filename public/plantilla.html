@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Visitantes - Sigma</title>
+    
+    <link type="text/css" rel="stylesheet" href="css/bootstrap4.5/css/bootstrap.min.css" />
+    
+    <link type="text/css" rel="stylesheet" href="css/styles.css" />
+    
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="img/sigma-logo.png" alt="sigma-logo" />
+        </header>
+
+        <section>
+            <h2>Prueba de desarrollo Sigma</h2>
+               
+            <article>
+                <p class="text-gray">
+                    Lorem Ipsum is symply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                </p>
+            </article>
+            
+            <div class="row">
+                <div class="col-0 col-md-6" id="container-sigma-image">
+                    <img src="img/sigma-image.png" alt="sigma-image" id="sigma-image" />
+                </div>
+                
+                <div class="col-12 col-md-6 container-form-register">
+                    <form action="#" id="form-register" >
+                        <div class="form-group">
+                            <label for="departamento">
+                                Departamento*
+                            </label>
+                            <select class="form-control" id="departamento">
+                                <option>Antioquia</option>
+                                <option>Casanare</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="ciudad">
+                                Ciudad*
+                            </label>
+                            <select class="form-control" id="ciudad">
+                                <option>Medellin</option>
+                                <option>Sabaneta</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">
+                                Nombre*
+                            </label>
+                            <input type="email" class="form-control" id="nombre" placeholder="Pepito de Jesús" />
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">
+                                Correo*
+                            </label>
+                            <input type="email" class="form-control" id="correo" placeholder="Pepitodejesus@gmail.com" />
+                        </div>
+                        <div class="form-group">
+                            <button 
+                               type="button" 
+                               class="btn btn-enviar"
+                                data-toggle="modal" 
+                                data-target="#modal-ok"
+                               >
+                                ENVIAR
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+        
+        
+    </div>
+    <!-- FIN container -->
+    
+        <!-- Inicio Modal -->
+        <div class="modal fade" id="modal-ok" tabindex="-1" role="dialog" aria-labelledby="modal-ok-label" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modal-ok-label">
+                            Confirmación
+                        </h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Tu información ha sido recibida satisfactoriamente
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                            Cerrar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FIN Modal -->
+
+<script src="css/bootstrap4.5/js/jquery-3.5.1.slim.min.js" ></script>
+<script src="css/bootstrap4.5/js/popper.min.js" ></script>
+<script src="css/bootstrap4.5/js/bootstrap.min.js" ></script>
+
+</body>
+</html>
